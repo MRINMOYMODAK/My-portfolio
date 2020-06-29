@@ -1,9 +1,14 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
 h1{
     font-size: 50px;
+}
+h3{
+    color: rgb(235, 108, 18);
+    
 }
 
 .name{
@@ -17,4 +22,30 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    border: lightsalmon;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900s;
+
+
+}
+
+.Dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+
 }
